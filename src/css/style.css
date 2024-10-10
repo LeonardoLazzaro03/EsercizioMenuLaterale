@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0;
+  }
+  
+  .clearfix{
+    clear: both;
+  }
+  
+  header#main-header {
+    height: 300px;
+    background-color: black;
+    color: white;
+  }
+  
+  nav#nav-laterale{
+    width: 20%;
+    float: left;
+    background-color: aqua;
+    padding: 10px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav#nav-laterale ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav#nav-laterale ul a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  section{
+    width: 80%;
+    float: left;
+    background-color: aquamarine;
+    padding: 10px;
+  }
